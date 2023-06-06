@@ -1,0 +1,361 @@
+
+/*
+#navbarNav {
+    justify-content: flex-end;
+}
+*/
+
+#ul-navbar {
+    margin-left: 1300px;
+}
+
+* {
+    box-sizing:border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+/* nav */
+.navbar {
+    padding: 5px;
+    border-bottom: 1px solid #CCC;
+}
+
+.navbar .nav-item a {
+    color: #412529;
+}
+
+.nav-item {
+    margin: 0 4px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px 5px;
+    font-weight:lighter;
+}
+
+.navbar .nav-item .btn {
+    color: #FFF;
+    background-color: blue;
+    border: 1px solid transparent;
+}
+
+.nav-link.btn.btn-primary:hover {
+    background-color: rgb(7, 122, 238);
+    color: white;
+    border-color: black;
+}
+
+/* banner */
+#top-container {
+    padding: 110px;
+    background-color: #f7f9fc;
+    border-bottom: 4px solid blue;
+    margin-bottom: 30px;
+    background-image: url("../img/banner2.jpg");
+    background-position: 0 100px;
+    background-size: cover;
+    color: #FFF
+}
+
+#main-title {
+    padding: 10px 0;
+    font-size: 3rem;
+}
+
+#main-subtitle {
+    font-size: 1rem;
+    padding-bottom: 60px;
+}
+
+#search-form {
+    padding: 30px 100px;
+    display: flex;
+}
+
+#search-form .col-md-10, #search-form .col-md-2 {
+    padding: 0;
+}
+
+#search-form input, #search-form button {
+    width: 100%;
+    border-radius: 0;
+    height: 40px;
+    font-size: 18px;
+}
+
+#search-form button {
+    color: #FFF;
+    background-color: blue;
+    border: 1px solid transparent;
+    font-weight: lighter;
+}
+
+#search-form button:hover {
+    background-color: rgb(7, 122, 238);
+    color: white;
+    border-color: black;
+}
+
+/* Lista de Jobs */
+
+#jobs-container {
+    padding: 0 100px;
+    padding-bottom: 50px;
+}
+
+#job-list .list-group-item {
+    margin-bottom: 8px;
+    border: 1px solid #CCC;
+    padding: 15px 80px;
+    height: 120px;
+    color: rgb(37, 37, 37)
+}
+
+#job-list .list-group-item p {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+#job-list .list-group-item.new-job {
+    background-color: #FFF7CC;
+    border: none;
+}
+
+#job-list-title {
+    margin-bottom: 35px;
+}
+
+.list-group-item img {
+    width: 90px;
+    border: 1px solid #212529;
+    border-radius: 50%;
+    background-color: #FFF;
+    position: absolute;
+    left: -45px; /*metade da imagem dentro do quadro do job, metade para fora do quadro. 45 é metade por causa do width 90. */
+    top: calc(50% - 40px); /*calculando para ficar centralizada na altura*/
+}
+
+.list-group-item a {
+    position: absolute;
+    right: 20px; /*centralizando 20px à direita */
+    top: 35px;
+    height: 35px;
+    color: #FFF;
+    background-color: blue;
+    border: 1px solid transparent;
+    font-weight: lighter;
+}
+
+.list-group-item:hover {
+    background-color: rgb(7, 122, 238);
+    color: white;
+    border-color: black;
+}
+
+.new-job-label {
+    background-color: #FFD500;
+    color: #4D5154;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 4px 9px;
+    position: absolute;
+    top: 36px;
+    right: 150px;
+    border-radius: 10%;
+    display: none;
+}
+
+.new-job .new-job-label {
+    display: block;
+}
+
+/* ADD PAGE */
+
+#add-form-container {
+    margin-top: 100px;
+}
+
+#form-box {
+    padding: 30px;
+    box-shadow: 0 1px 5px rgba(0,0,0,.15);
+    border-radius: 4px;
+    background-color: #FFF;
+    margin-bottom: 50px;
+}
+
+#add-form-container h1{
+    margin-bottom: 30px;
+}
+
+#add-form-container h2{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#add-form-container form label {
+    font-weight: bold;
+}
+
+#add-form-container form input, #add-form-container form textarea {
+    border: 2px solid #CCC;
+    background-color: #F8F9FA;
+}
+
+#form-box button {
+    bottom: 50px;
+    width: 150px;
+    background-color: blue;
+    border: 1px solid transparent;
+    font-weight: lighter;
+}
+
+#form-box button:hover {
+    background-color: rgb(7, 122, 238);
+    color: white;
+    border-color: black;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+/*
+#scampo {
+    margin-top: 20px;
+}*/
+
+/* job-view, página da vaga */
+
+#job-view-container {
+    margin-top: 70px;
+}
+
+#job-view-container h1 {
+    margin-bottom: 30px;
+}
+
+#img-container {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#img-container img {
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid #212529;
+}
+
+.job-desc {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.main-color {
+    color: #F03E3E;
+
+}
+
+.back-link {
+    border: 1px solid #F03E3E;
+    width: auto;
+    padding: 5px 10px;
+    border-radius: 8%;
+}
+
+.back-link:hover {
+    background-color: #F03E3E;
+    color: white;
+    border-color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* RESPONSIVO - para mobiles */
+
+@media (max-width: 481px) {
+    /* navbar */
+    #navbarNav {
+        text-align: center;
+    }
+
+    /* home */
+    #top-container {
+        padding: 50px;
+        padding-top: 100px;
+    }
+
+    #main-title {
+        font-size: 2.2rem;
+    }
+
+    #main-subtitle {
+        font-size: 1.0rem;
+    }
+
+    #search-form {
+        padding: 0;
+    }
+
+    #jobs-container {
+        padding: 20px;
+    }
+
+    #vervagas {
+        color: rgb(0,0,0);
+    }
+
+    #addvaga {
+        color:#FFF;
+    }
+
+    .list-group-item {
+        padding: 15px 85px;
+    }
+
+    .list-group-item h2 {
+        font-size: 1.1rem;
+    }
+
+    .list-group-item img {
+        width: 50px;
+        left: -15px;
+        top: calc(50% - 25px);
+    }
+
+    .new-job .new-job-label {
+        display: none;
+    }
+
+    #search-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-group {
+        margin-bottom: 5px;
+    }
+    
+    /* job view */
+    .back-link {
+        margin-left: 30px;
+    }
+
+    #job-view-container p {
+        font-size: 1.1rem;
+    }
+
+    .job-desc {
+        width: 80%
+    }
+
+    /* add vagas */
+    #form-box button {
+        width: 100%;
+    }
+    
+}
